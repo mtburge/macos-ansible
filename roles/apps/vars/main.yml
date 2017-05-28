@@ -1,0 +1,48 @@
+---
+homebrew_taps:
+  - caskroom/cask
+  - caskroom/fonts
+  - caskroom/versions
+  - getantibody/antibody
+  - homebrew/bundle
+  - homebrew/versions
+
+homebrew_installed_packages:
+  - git
+  - tmux
+  - zsh
+  - vim
+  - gpg
+  - nmap
+  - npm
+  - ssh-copy-id
+  - openssl
+  - pv
+  - wget
+  - dockutil
+  - yarn
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  # fonts
+  - font-source-code-pro
+  - font-fira-code
+
+  # apps
+  - 1password
+  - google-chrome
+  - slack
+  - sourcetree
+  - spotify
+  - vagrant
+  - virtualbox
+  - phpstorm
+  - atom
+  - sequel-pro
+  - whatsapp
+  - dropbox
+  - medis
+  - iterm2
+  - sketch
+  - vlc
+  - atom

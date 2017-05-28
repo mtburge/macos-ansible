@@ -1,0 +1,47 @@
+---
+dock_default_apps:
+  - Launchpad
+  - Mail
+  - Safari
+  - Contacts
+  - Notes
+  - Reminders
+  - Maps
+  - Photos
+  - Messages
+  - FaceTime
+  - iTunes
+  - iBooks
+  - App Store
+  - System Preferences
+  - Calendar
+  - Siri
+
+dock_apps:
+  - name: iTerm
+    path: "/Applications/iTerm.app"
+    pos: 1
+  - name: Google Chrome
+    path: "/Applications/Google Chrome.app"
+    pos: 2
+  - name: PhpStorm
+    path: /Applications/PhpStorm.app
+    pos: 3
+  - name: Sequel Pro
+    path: /Applications/Sequel Pro.app
+    pos: 4
+  - name: SourceTree
+    path: /Applications/SourceTree.app
+    pos: 5
+  - name: Atom
+    path: /Applications/Atom.app
+    pos: 6
+  - name: Slack
+    path: /Applications/Slack.app
+    pos: 7
+  - name: Spotify
+    path: /Applications/Spotify.app
+    pos: 8
+  - name: WhatsApp
+    path: /Applications/WhatsApp.app
+    pos: 9
