@@ -75,11 +75,6 @@ macos:
           key: ShowRemovableMediaOnDesktop
           value: -bool true
 
-        # Always show filename extensions
-        - domain: NSGlobalDomain
-          key: AppleShowAllExtensions
-          value: -bool true
-
         # Search the current folder by default in finder
         - domain: com.apple.finder
           key: FXDefaultSearchScope
