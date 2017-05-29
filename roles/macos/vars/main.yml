@@ -124,3 +124,8 @@ macos:
         - domain: NSGlobalDomain
           key: AppleShowScrollBars
           value: -string WhenScrolling
+          
+        # Delete items from the Trash after 30 days
+        - domain: com.apple.finder
+          key: FXRemoveOldTrashItems
+          value: -bool true
