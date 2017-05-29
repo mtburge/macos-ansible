@@ -63,6 +63,9 @@ else
   echo "${bold}Ansible:${normal} Skipping, already installed."
 fi
 
+# Install Oh-My-ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Download and install the dotfiles
 if [ -d "${HOME}/.dotfiles" ]; then
   echo "${bold}Dotfiles:${normal} Skipping, already installed."
