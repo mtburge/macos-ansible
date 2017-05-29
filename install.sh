@@ -63,10 +63,6 @@ else
   echo "${bold}Ansible:${normal} Skipping, already installed."
 fi
 
-# Install Oh-My-ZSH
-echo "${bold}Oh-My-ZSH:${normal} Installing..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Download and install the dotfiles
 if [ -d "${HOME}/.dotfiles" ]; then
   echo "${bold}Dotfiles:${normal} Skipping, already installed."
@@ -92,3 +88,7 @@ ansible-galaxy install -r requirements.yml
 
 echo "${bold}Running ansible playbook for user ${user}...${normal}"
 ansible-playbook playbook.yml -e install_user=${user} -i hosts --ask-become-pass
+
+# Install Oh-My-ZSH
+echo "${bold}Oh-My-ZSH:${normal} Installing..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
