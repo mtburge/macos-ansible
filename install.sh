@@ -64,6 +64,7 @@ else
 fi
 
 # Install Oh-My-ZSH
+echo "${bold}Oh-My-ZSH:${normal} Installing..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Download and install the dotfiles
