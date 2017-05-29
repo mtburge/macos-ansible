@@ -29,6 +29,11 @@ macos:
         - domain: com.apple.driver.AppleBluetoothMultitouch.trackpad
           key: TrackpadRightClick
           value: -bool true
+          
+        # Disable natural scrolling
+        - domain: NSGlobalDomain
+          key: com.apple.swipescrolldirection
+          value: -bool false
 
         # Require password when awoken from the screensaver
         - domain: com.apple.screensaver
