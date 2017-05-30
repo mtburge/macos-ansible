@@ -7,5 +7,5 @@ Run the following command to download and install all dependancies, and run the 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/itsmattburgess/macos-ansible/master/install.sh)"
 ```
 
-### Inspiration
+## Inspiration
 The install.sh file was inspired by the [imjoshholloway/laptop](https://github.com/imjoshholloway/laptop) repository.
