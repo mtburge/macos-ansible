@@ -47,3 +47,4 @@ homebrew_cask_apps:
   - atom
   - insomnia
   - sublime-text
+  - visual-studio-code
