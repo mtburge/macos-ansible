@@ -46,3 +46,4 @@ homebrew_cask_apps:
   - vlc
   - atom
   - insomnia
+  - sublime-text
