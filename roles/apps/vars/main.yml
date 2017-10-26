@@ -41,8 +41,8 @@ homebrew_cask_apps:
   - sequel-pro
   - whatsapp
   - dropbox
-  - medis
   - iterm2
   - sketch
   - vlc
   - atom
+  - insomnia
