@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - yarn
   - libsass
   - grip
+  - terraform
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
