@@ -24,6 +24,7 @@ homebrew_installed_packages:
   - libsass
   - grip
   - terraform
+  - packer
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
