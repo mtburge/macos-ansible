@@ -25,6 +25,7 @@ homebrew_installed_packages:
   - grip
   - terraform
   - packer
+  - reattach-to-user-namespace
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
